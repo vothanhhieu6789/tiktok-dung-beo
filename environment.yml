@@ -1,0 +1,10 @@
+name: tiktok-dung-beo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - aiofiles=0.7.0
+  - pip=21.3
+  - pip:
+    - aiohttp
+    - tiktokapi==4.0.4
